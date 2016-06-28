@@ -39,3 +39,5 @@ RUN git clone https://github.com/Homebrew/linuxbrew.git ~/.linuxbrew
 # Update brew and install bro
 RUN /bin/bash --login -c "brew update"
 RUN /bin/bash --login -c "brew install bro"
+
+RUN cd ~
